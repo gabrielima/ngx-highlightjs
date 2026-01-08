@@ -1,0 +1,4 @@
+{
+  "module": "../fesm2022/ngx-highlightjs-line-numbers.mjs",
+  "typings": "../types/ngx-highlightjs-line-numbers.d.ts"
+}

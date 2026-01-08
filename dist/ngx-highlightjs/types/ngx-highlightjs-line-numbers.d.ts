@@ -1,0 +1,21 @@
+import * as i0 from '@angular/core';
+import { InputSignalWithTransform } from '@angular/core';
+
+declare function activateLineNumbers(): void;
+
+declare class HighlightLineNumbers {
+    private readonly options;
+    private readonly _hljs;
+    private readonly _highlight;
+    private readonly _nativeElement;
+    private _lineNumbersObs;
+    readonly startFrom: InputSignalWithTransform<number, unknown>;
+    readonly singleLine: InputSignalWithTransform<boolean, unknown>;
+    constructor();
+    private addLineNumbers;
+    private destroyLineNumbersObserver;
+    static ɵfac: i0.ɵɵFactoryDeclaration<HighlightLineNumbers, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<HighlightLineNumbers, "[highlight][lineNumbers], [highlightAuto][lineNumbers]", never, { "startFrom": { "alias": "startFrom"; "required": false; "isSignal": true; }; "singleLine": { "alias": "singleLine"; "required": false; "isSignal": true; }; }, {}, never, never, true, never>;
+}
+
+export { HighlightLineNumbers, activateLineNumbers };

@@ -1,0 +1,4 @@
+{
+  "module": "../fesm2022/ngx-highlightjs-plus.mjs",
+  "typings": "../types/ngx-highlightjs-plus.d.ts"
+}
